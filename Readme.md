@@ -17,8 +17,8 @@ This repository contains a Python script for enumerating usernames on an SMTP se
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/smtp-enum.git
-   cd smtp-enum
+   git clone https://github.com/your-username/smtp-enum-py-script.git
+   cd smtp-enum-py-script
    ```
 
 2. Verify that Python 3.x is installed:
@@ -37,9 +37,10 @@ This repository contains a Python script for enumerating usernames on an SMTP se
 1. Prepare a wordlist file (`wordlist.txt`) with the usernames you want to test, with one username per line.
 2. Run the script:
    ```bash
-   python3 smtp_enum.py
+   python3 smtpscript.py
    ```
 3. Provide the required inputs when prompted:
+   (Make sure the wordlist is in the same directory as the script and with the name = wordlist.txt)
    ```plaintext
    Target IP or hostname: <target-ip>
    Format: wordlist.txt (assuming wordlist is in the same directory as the script): wordlist.txt
@@ -84,12 +85,7 @@ Error with test: SMTPServerDisconnected: Connection unexpectedly closed
 2. **Enable Debugging:**
    Modify the script to include print statements to debug where it hangs or fails.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 Feel free to fork this repository and submit pull requests for improvements or additional features. Suggestions and feedback are welcome!
-
-## Disclaimer
-This script is intended for educational and authorized security testing purposes only. Unauthorized use of this tool against systems you do not own or have explicit permission to test is illegal and unethical.
 
