@@ -17,7 +17,7 @@ This repository contains a Python script for enumerating usernames on an SMTP se
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/smtp-enum-py-script.git
+   git clone https://github.com/shashwath1278/smtp-enum-py-script.git
    cd smtp-enum-py-script
    ```
 
