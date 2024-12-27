@@ -63,12 +63,6 @@ Response for test: 550 5.1.1 User unknown
 Response for user: 252 2.0.0 user@target-domain.com
 ```
 
-If there is an error (e.g., connection issues or `VRFY` disabled):
-```plaintext
-Error with admin: [Errno 111] Connection refused
-Error with test: SMTPServerDisconnected: Connection unexpectedly closed
-```
-
 ## Notes
 - The script assumes the target SMTP server supports the `VRFY` command. Some modern SMTP servers disable this command for security reasons.
 - Ensure you have explicit permission to test the target SMTP server to comply with ethical and legal guidelines.
